@@ -1,0 +1,225 @@
+@media screen and (max-width: 1900px) {
+  .contact-form__request {
+    width: 350px;
+  }
+  .hero__cards {
+    margin: 0 30px;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .header__title {
+    font-size: 80px;
+  }
+  .flex-container {
+    height: 700px;
+  }
+  .footer-car {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .contacts {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+  }
+}
+@media screen and (max-width: 1575px) {
+  .hero__card {
+    width: 420px;
+  }
+  .hero__card-title {
+    margin-top: 30px;
+  }
+  .hero__card-button-more {
+    margin: 0;
+  }
+  .hero__card-button {
+    padding: 20px 120px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1375px) {
+  .hero {
+    position: relative;
+    height: 3200px;
+  }
+  .hero__cards {
+    display: block;
+    flex-direction: column;
+
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, 0);
+  }
+  .hero__card:nth-child(2) {
+    bottom: 0;
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .header__logo {
+    width: 350px;
+  }
+  .header__title {
+    font-size: 65px;
+    line-height: 85px;
+  }
+  .hero {
+    height: 2850px;
+  }
+  .hero__card-title {
+    font-size: 25px;
+  }
+  .hero__card-subtitle {
+    font-size: 18px;
+  }
+  .hero__card {
+    height: 930px;
+  }
+  .hero__card-button-more a {
+    font-size: 20px;
+  }
+  .hero__card-button {
+    font-size: 25px;
+  }
+  .title-form {
+    font-size: 30px;
+  }
+  .contact-form__request::placeholder {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .header__logo {
+    width: 250px;
+  }
+
+  .header {
+    background-size: 140%;
+    height: 800px;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .header__title {
+    font-size: 55px;
+    line-height: 65px;
+    margin-top: 50px;
+  }
+  .hero__card {
+    bottom: 250px;
+  }
+  .hero__card:nth-child(2) {
+    bottom: 250px;
+    margin: 20px 0;
+  }
+  .hero {
+    height: 2550px;
+  }
+  .contact-form__request {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .header {
+    padding: 50px 50px 0 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .hero__card-button {
+    font-size: 20px;
+  }
+  .hero__card {
+    bottom: 350px;
+  }
+  .hero__card:nth-child(2) {
+    bottom: 350px;
+    margin: 15px 0;
+  }
+  .hero {
+    height: 2430px;
+  }
+  .contact-form__request::placeholder {
+    font-size: 18px;
+  }
+  .contacts-form__submit-btn {
+    font-size: 18px;
+  }
+  .politics a {
+    font-size: 14px;
+  }
+  .contact-form__data-title {
+    font-size: 16px;
+  }
+  .footer-car {
+    opacity: 0.3;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer {
+    margin-top: 80px;
+  }
+  .footer-car {
+    width: 100%;
+  }
+  .contact-form__request {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header__logo {
+    width: 200px;
+  }
+  .header__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .contacts-form__submit-btn {
+    left: 30px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero__card {
+    bottom: 480px;
+  }
+  .hero__card:nth-child(2) {
+    bottom: 480px;
+  }
+  footer {
+    margin-top: 0;
+  }
+  .politics {
+    width: 150px;
+  }
+  .liscence-text {
+    text-align: left;
+  }
+  .contacts-form__submit-btn {
+    padding: 3px 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    background-size: cover;
+  }
+  .hero__card {
+    width: 350px;
+  }
+  .hero__card-img {
+    width: 200px;
+    height: 130px;
+  }
+  .contact-form__request {
+    width: 90%;
+  }
+}
