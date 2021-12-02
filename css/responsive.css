@@ -42,7 +42,6 @@
 @media screen and (max-width: 1375px) {
   .hero {
     position: relative;
-    height: 3200px;
   }
   .hero__card {
     width: 350px;
@@ -73,6 +72,9 @@
     left: 50%;
     margin: 0;
     transform: translate(-50%, 0);
+  }
+  .hero__card {
+    width: 500px;
   }
   .hero__card:nth-child(2) {
     bottom: 0;
@@ -146,6 +148,7 @@
   }
   .hero__card {
     bottom: 350px;
+    width: 400px;
   }
   .hero__card:nth-child(2) {
     bottom: 350px;
