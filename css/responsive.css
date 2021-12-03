@@ -269,7 +269,7 @@
 }
 @media screen and (max-width: 700px) {
   .modal {
-    left: 0;
+    left: 50%;
   }
   footer {
     margin-top: 80px;
@@ -357,6 +357,24 @@
   }
   .contacts-form__submit-btn {
     right: 20%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .__select__title {
+    left: -40px;
+  }
+  .__select__content {
+    right: -30px;
+  }
+  .__select__title-region {
+    left: -80px;
+  }
+  .__select__content-region {
+    left: -80px;
+  }
+
+  .contact-form__request {
+    left: -40px;
   }
 }
 @media screen and (max-width: 375px) {
