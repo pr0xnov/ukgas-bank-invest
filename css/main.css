@@ -95,6 +95,10 @@ a {
   font-size: 25px;
   line-height: 32px;
 }
+.hero__card-subtitle img {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
 .hero__card-button-more {
   position: absolute;
   bottom: 150px;
