@@ -1,4 +1,4 @@
-!(function (e) {
+(function (e) {
   'function' != typeof e.matches &&
     (e.matches =
       e.msMatchesSelector ||
@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
   closeButtons.forEach(function (item) {
     item.addEventListener('click', function (e) {
       var parentModal = this.closest('.modal');
-
       parentModal.classList.remove('active');
       overlay.classList.remove('active');
     });
