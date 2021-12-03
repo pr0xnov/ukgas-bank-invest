@@ -182,7 +182,7 @@
     bottom: -185px;
   }
   .__select__title-region {
-    left: -210px;
+    left: -95px;
     top: 265px;
   }
   .__select__title {
@@ -195,7 +195,7 @@
     right: -11px;
   }
   .contact-form__check-box {
-    margin-top: 270px;
+    margin-top: 300px;
     width: 300px;
     position: relative;
     left: -15%;
@@ -208,13 +208,12 @@
     height: 850px;
   }
   .contacts-form__submit-btn {
-    bottom: -250px;
+    bottom: -270px;
     right: 28%;
   }
   .__select__content-region {
-    height: 90px;
-    left: -210px;
     top: 340px;
+    left: -95px;
   }
   .politics {
     top: -110px;
@@ -297,6 +296,9 @@
   .flex-container {
     margin-left: 23%;
     margin-right: 30px;
+  }
+  .__select__title-right {
+    right: 0;
   }
 }
 @media screen and (max-width: 475px) {
