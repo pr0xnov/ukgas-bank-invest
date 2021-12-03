@@ -1,5 +1,5 @@
 :root {
-  --bg-blue-color: #60b4d8;
+  --bg-blue-color: #65bcdd;
   --bg-white-color: #fff;
 
   --text-white-color: #fff;
@@ -321,7 +321,7 @@ footer {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 30; /* Должен быть выше чем у подложки*/
+  z-index: 9999; /* Должен быть выше чем у подложки*/
 
   /*  Побочные стили   */
   -webkit-box-shadow: 7px 7px 25px 6px rgba(34, 60, 80, 0.2);
@@ -373,9 +373,6 @@ footer {
   position: relative;
   bottom: 10px;
   margin-right: 10px;
-  padding: 5px;
-  border: 1px solid #4a8942;
-  border-radius: 50%;
 }
 
 .__select {

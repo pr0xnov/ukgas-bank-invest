@@ -96,6 +96,15 @@
   .contact-form__request::placeholder {
     font-size: 25px;
   }
+  .modal[data-modal='1'] {
+    top: 8%;
+  }
+  .modal[data-modal='2'] {
+    top: 42%;
+  }
+  .modal[data-modal='3'] {
+    top: 75%;
+  }
 }
 @media screen and (max-width: 970px) {
   .header__logo {
@@ -157,6 +166,15 @@
   }
   .__select__title-region {
     left: 53px;
+  }
+  .modal[data-modal='1'] {
+    top: 6%;
+  }
+  .modal[data-modal='2'] {
+    top: 37%;
+  }
+  .modal[data-modal='3'] {
+    top: 70%;
   }
 }
 @media screen and (max-width: 880px) {
@@ -265,6 +283,15 @@
   }
   .contacts-form__submit-btn {
     bottom: -20px;
+  }
+  .modal[data-modal='1'] {
+    top: -5%;
+  }
+  .modal[data-modal='2'] {
+    top: 30%;
+  }
+  .modal[data-modal='3'] {
+    top: 67%;
   }
 }
 @media screen and (max-width: 700px) {
