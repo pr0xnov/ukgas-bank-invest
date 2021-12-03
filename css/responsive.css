@@ -250,6 +250,9 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .modal {
+    left: 0;
+  }
   footer {
     margin-top: 80px;
   }
@@ -289,24 +292,13 @@
   .flex-container {
     margin: 0 auto;
   }
-  .contacts {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
   .flex-container {
     margin-left: 23%;
-    margin-right: 30px;
   }
   .__select__title-right {
     right: 0;
   }
 }
-@media screen and (max-width: 475px) {
-  .flex-container {
-    margin-left: 20%;
-  }
-}
-
 @media screen and (max-width: 375px) {
   .header {
     background-size: cover;
