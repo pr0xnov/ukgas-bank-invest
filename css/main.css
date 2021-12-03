@@ -365,11 +365,18 @@ footer {
   margin-bottom: 30px;
 }
 .modal__header-item {
+  list-style-type: disc;
+  margin-left: 22px;
   font-size: 25px;
   margin-bottom: 20px;
 }
+.modal__header-item::marker {
+  color: #4a8942;
+}
 .modal__header-item span {
   color: #4a8942;
+  height: 20px;
+  width: 20px;
 }
 .modal__header-item:last-child {
   margin-bottom: 30px;
