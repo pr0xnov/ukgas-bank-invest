@@ -348,6 +348,17 @@
     right: 35%;
   }
 }
+@media screen and (max-width: 420px) {
+  .__select__title-region {
+    left: -70px;
+  }
+  .__select__content-region {
+    left: -70px;
+  }
+  .contacts-form__submit-btn {
+    right: 20%;
+  }
+}
 @media screen and (max-width: 375px) {
   .header {
     background-size: cover;
