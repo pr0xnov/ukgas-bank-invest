@@ -377,4 +377,22 @@
   .hero {
     height: 2450px;
   }
+  .__select__title {
+    left: -45px;
+  }
+  .__select__content {
+    right: -25px;
+  }
+  .contact-form__request {
+    left: -45px;
+  }
+  .contact-form__check-box {
+    left: -10%;
+  }
+  .__select__title-region {
+    left: -80px;
+  }
+  .__select__content-region {
+    left: -80px;
+  }
 }
