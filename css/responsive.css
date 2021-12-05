@@ -271,9 +271,9 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .contact-input-container {
+  /* .contact-input-container {
     width: 100%;
-  }
+  } */
   .header__lamp {
     top: -30px;
     right: -50px;
@@ -299,24 +299,24 @@
   .footer-car {
     opacity: 0.3;
   }
-  .contact-form__request {
+  /* .contact-form__request {
     bottom: -100px;
-  }
-  .__select__title-region {
+  } */
+  /* .__select__title-region {
     left: -40px;
     top: 180px;
   }
   .__select__content-region {
     top: 253px;
     left: -40px;
-  }
-  .contact-form__check-box {
+  } */
+  /* .contact-form__check-box {
     left: -7%;
     margin-top: 140px;
   }
   .contacts-form__submit-btn {
     bottom: -20px;
-  }
+  } */
   .modal[data-modal='1'] {
     top: -5%;
   }
@@ -372,7 +372,7 @@
   .flex-container {
     margin-left: 23%;
   }
-  .__select__title {
+  /* .__select__title {
     left: -25px;
     top: 10px;
   }
@@ -390,30 +390,29 @@
   .__select__content-region {
     top: 260px;
     left: -95px;
-  }
+  } */
   .contact-form__check-box {
-    margin-top: 230px;
+    left: -7%;
   }
-  .politics {
+  /* .politics {
     right: 45%;
     top: -200px;
-  }
-  .contact-form__request {
+  } */
+  /* .contact-form__request {
     bottom: -20px;
     left: -25px;
-  }
-  .contacts-form__submit-btn {
+  /* } */
+  /* .contacts-form__submit-btn {
     bottom: -200px;
-    right: 35%;
-  }
-  footer {
+  } */
+  /* footer {
     height: 900px;
-  }
-  .footer__licence {
-    margin-top: 80px;
-  }
+  } */
+  /* .footer__licence {
+    margin-bottom: 80px;
+  } */
 }
-@media screen and (max-width: 420px) {
+/* @media screen and (max-width: 420px) {
   .__select__title-region {
     left: -70px;
   }
@@ -423,9 +422,9 @@
   .contacts-form__submit-btn {
     right: 20%;
   }
-}
+} */
 @media screen and (max-width: 400px) {
-  .__select__title {
+  /* .__select__title {
     left: -40px;
   }
   .__select__content {
@@ -440,7 +439,7 @@
 
   .contact-form__request {
     left: -40px;
-  }
+  } */
 }
 @media screen and (max-width: 375px) {
   .header {
@@ -460,7 +459,7 @@
   .hero {
     height: 2450px;
   }
-  .__select__title {
+  /* .__select__title {
     left: -45px;
   }
   .__select__content {
@@ -477,5 +476,5 @@
   }
   .__select__content-region {
     left: -80px;
-  }
+  } */
 }
