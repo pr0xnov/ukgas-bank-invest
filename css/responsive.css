@@ -37,6 +37,7 @@
   }
   .hero__card {
     width: 350px;
+    height: 1100px;
   }
   .header__lamp {
     opacity: 0.6;
@@ -73,7 +74,6 @@
     height: 0;
     height: fit-content;
     padding-bottom: 200px;
-}
   }
   .hero__card:nth-child(2) {
     bottom: 0;
@@ -137,7 +137,7 @@
     margin: 20px 0;
   }
   .hero {
-    height: 2750px;
+    height: 2150px;
   }
   .flex-container {
     justify-content: inherit;
@@ -300,13 +300,13 @@
   .politics {
     right: 60%;
   }
-  .liscence-text{
+  .liscence-text {
     text-align: left;
   }
   .footer-car {
     opacity: 0.3;
   }
-  .title-form{
+  .title-form {
     margin-bottom: 0;
   }
   .modal[data-modal='1'] {
@@ -341,7 +341,7 @@
     font-size: 12px;
     margin-top: 190px;
   }
-  
+
   .hero__card {
     bottom: 250px;
   }
@@ -350,7 +350,7 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .header__title{
+  .header__title {
     margin-top: 50px;
     font-size: 32px;
   }
@@ -370,10 +370,9 @@
   footer {
     margin-top: 0;
   }
-
 }
 @media screen and (max-width: 375px) {
-  .hero__card{
+  .hero__card {
     width: 360px;
   }
   .__select__title {
