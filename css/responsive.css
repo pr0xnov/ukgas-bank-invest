@@ -139,33 +139,7 @@
   .hero {
     height: 2150px;
   }
-  .contact-form__request,
-  .__select__title-region,
-  .__select__title {
-    width: 300px;
-  }
-  .__select__content {
-    width: 300px;
-  }
-  .__select__content-region {
-    width: 300px;
-    left: 53px;
-  }
-  .__select__title {
-    line-height: 25px;
-  }
-  .__select__title-region {
-    line-height: 25px;
-  }
-  .contact-form__request-tel {
-    left: 75px;
-  }
-  .contact-input-container {
-    width: 100%;
-  }
-  .__select__title-region {
-    left: 53px;
-  }
+
   .modal[data-modal='1'] {
     top: 6%;
   }
@@ -276,6 +250,7 @@
     font-size: 42px;
     line-height: 50px;
     font-weight: 600;
+    margin-top: 200px;
   }
   .hero__card-button {
     font-size: 20px;
@@ -333,6 +308,7 @@
     width: 350px;
     font-size: 38px;
     line-height: 42px;
+    margin-top: 150px;
   }
   .footer__licence {
     font-size: 12px;
