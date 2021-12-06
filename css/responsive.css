@@ -287,13 +287,13 @@
     margin-bottom: 0;
   }
   .modal[data-modal='1'] {
-    top: -5%;
+    top: 2%;
   }
   .modal[data-modal='2'] {
-    top: 30%;
+    top: 26%;
   }
   .modal[data-modal='3'] {
-    top: 67%;
+    top: 65%;
   }
   .flex-container {
     margin: 0;
@@ -337,7 +337,16 @@
 
   .modal {
     padding: 10px;
-    width: 100%;
+    width: 80%;
+  }
+  .modal[data-modal='1'] {
+    top: 12%;
+  }
+  .modal[data-modal='2'] {
+    top: 34%;
+  }
+  .modal[data-modal='3'] {
+    top: 74%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -388,6 +397,15 @@
   }
   .politics {
     right: 55%;
+  }
+  .modal[data-modal='1'] {
+    top: 7%;
+  }
+  .modal[data-modal='2'] {
+    top: 30%;
+  }
+  .modal[data-modal='3'] {
+    top: 70%;
   }
 }
 @media screen and (max-width: 450px) {
