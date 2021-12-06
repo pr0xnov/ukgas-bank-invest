@@ -445,7 +445,7 @@ footer {
 }
 .__select__title-right {
   position: relative;
-  right: -117px;
+  left: 117px;
   bottom: 75px;
 }
 .__select__title::before,
@@ -507,7 +507,6 @@ footer {
 
 .__select-region {
   position: relative;
-  width: 230px;
   height: 40px;
   margin: 0 auto;
 }
@@ -528,7 +527,7 @@ footer {
 }
 .__select__title-region {
   position: absolute;
-  left: -25px;
+  left: 262px;
   top: 100px;
   display: flex;
   align-items: center;
@@ -561,7 +560,7 @@ footer {
 }
 .__select__content-region {
   position: absolute;
-  left: -25px;
+  left: 262px;
   top: 170px;
   width: 350px;
   display: flex;
