@@ -336,7 +336,7 @@
   }
 
   .modal {
-    padding: 10px;
+    padding: 20px;
     width: 80%;
   }
   .modal[data-modal='1'] {
@@ -397,6 +397,10 @@
   }
   .politics {
     right: 55%;
+  }
+  .modal {
+    padding: 10px;
+    width: 95%;
   }
   .modal[data-modal='1'] {
     top: 7%;
