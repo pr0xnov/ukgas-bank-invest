@@ -122,7 +122,7 @@
     width: 250px;
   }
   .header__lamp {
-    width: 800px;
+    width: 700px;
     height: 500px;
   }
   .header {
@@ -305,7 +305,7 @@
     width: 500px;
   }
   .header__lamp {
-    width: 650px;
+    width: 600px;
     height: 420px;
     bottom: -350px;
   }
@@ -319,7 +319,7 @@
   }
   .header__lamp {
     bottom: -400px;
-    width: 550px;
+    width: 520px;
     height: 370px;
   }
   .header__title {
@@ -357,7 +357,7 @@
     width: 350px;
   }
   .header__lamp {
-    width: 450px;
+    width: 420px;
     height: 290px;
     bottom: -310px;
     right: -70px;
