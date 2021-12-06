@@ -390,6 +390,18 @@
     right: 55%;
   }
 }
+@media screen and (max-width: 450px) {
+  .header__title {
+    font-size: 34px;
+    width: 350px;
+  }
+  .header__lamp {
+    width: 400px;
+    height: 260px;
+    bottom: -310px;
+    right: -60px;
+  }
+}
 @media screen and (max-width: 375px) {
   .hero__card {
     width: 350px;
