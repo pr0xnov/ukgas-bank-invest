@@ -35,21 +35,24 @@
   .hero {
     position: relative;
   }
+  .header {
+    height: 1150px;
+  }
   .hero__card {
     width: 350px;
     height: 1100px;
   }
   .header__lamp {
-    opacity: 0.6;
-  }
-  .header__title {
-    font-weight: 600;
+    bottom: -400px;
   }
   .hero__card-img-credit {
     width: 300px;
   }
 }
 @media screen and (max-width: 1150px) {
+  .header {
+    height: 1000px;
+  }
   .header__logo {
     width: 350px;
   }
@@ -59,7 +62,10 @@
     line-height: 85px;
   }
   .hero {
-    height: 2300px;
+    height: 2720px;
+  }
+  .header__lamp {
+    right: 0;
   }
 
   .hero__cards {
@@ -116,10 +122,8 @@
     width: 250px;
   }
   .header__lamp {
-    width: 600px;
-    height: 390px;
-    top: 100px;
-    right: 50px;
+    width: 800px;
+    height: 500px;
   }
   .header {
     background-size: 140%;
@@ -132,15 +136,12 @@
     line-height: 65px;
     margin-top: 50px;
   }
-  .hero__card {
-    bottom: 150px;
-  }
   .hero__card:nth-child(2) {
-    bottom: 150px;
     margin: 20px 0;
+    bottom: -40px;
   }
-  .hero {
-    height: 2150px;
+  .hero__card {
+    bottom: -40px;
   }
 
   .modal[data-modal='1'] {
@@ -156,6 +157,7 @@
 @media screen and (max-width: 880px) {
   .header {
     padding: 50px 50px 0 50px;
+    overflow: hidden;
   }
   .contacts {
     margin-left: auto;
@@ -163,6 +165,9 @@
   }
   .hero__cards {
     height: 100%;
+  }
+  .header__lamp {
+    right: -50px;
   }
   .contact-form {
     height: 370px;
@@ -193,6 +198,7 @@
     width: 300px;
     position: relative;
     left: -15%;
+    z-index: 99999;
   }
   .footer-car {
     opacity: 0.6;
@@ -213,7 +219,6 @@
     top: -110px;
     right: 40%;
     width: 100%;
-    text-align: center;
   }
   .contact-input-container {
     width: 0;
@@ -248,32 +253,26 @@
 }
 @media screen and (max-width: 768px) {
   .header__lamp {
-    top: -30px;
-    right: -50px;
-    opacity: 0.4;
   }
   .header__title {
-    font-size: 42px;
-    line-height: 50px;
-    margin-top: 200px;
-    width: 100%;
+    margin-top: 150px;
   }
   .hero__card-button {
     font-size: 20px;
   }
   .hero__card {
-    bottom: 160px;
     width: 400px;
+    bottom: -80px;
   }
   .hero__card:nth-child(2) {
-    bottom: 160px;
     margin: 15px 0;
+    bottom: -80px;
   }
   .contact-form__check-box {
     left: -12%;
   }
   .hero {
-    height: 2050px;
+    height: 2600px;
   }
   .politics {
     right: 60%;
@@ -304,52 +303,67 @@
   .modal {
     left: 50%;
   }
+  .header__title {
+    width: 500px;
+  }
+  .header__lamp {
+    width: 650px;
+    height: 420px;
+    bottom: -350px;
+  }
 }
 @media screen and (max-width: 600px) {
+  .header {
+    height: 720px;
+  }
   .header__logo {
     width: 200px;
   }
+  .header__lamp {
+    bottom: -400px;
+    width: 550px;
+    height: 370px;
+  }
   .header__title {
-    font-size: 38px;
+    font-size: 42px;
     line-height: 42px;
-    margin-top: 150px;
+    margin-top: 100px;
+    width: 400px;
   }
   .footer__licence {
     font-size: 12px;
     margin-top: 190px;
   }
 
-  .hero__card {
-    bottom: 250px;
-  }
-  .hero__card:nth-child(2) {
-    bottom: 250px;
-  }
   .modal {
     padding: 10px;
     width: 100%;
   }
-  .__select-region {
-  }
 }
 @media screen and (max-width: 480px) {
+  .header {
+    height: 600px;
+  }
   .header__title {
     margin-top: 50px;
-    font-size: 32px;
+    font-size: 36px;
+    width: 350px;
   }
   .header__lamp {
     width: 450px;
     height: 290px;
+    bottom: -310px;
+    right: -70px;
   }
   .hero__card {
-    bottom: 480px;
     width: 350px;
-  }
-  .hero {
-    height: 2000px;
+    bottom: -30px;
   }
   .hero__card:nth-child(2) {
-    bottom: 480px;
+    bottom: -30px;
+  }
+  .hero {
+    height: 2720px;
   }
   footer {
     margin-top: 0;
@@ -379,5 +393,14 @@
 @media screen and (max-width: 375px) {
   .hero__card {
     width: 350px;
+  }
+  .header__title {
+    width: 100%;
+    font-size: 32px;
+  }
+  .header__lamp {
+    width: 350px;
+    height: 250px;
+    bottom: -250px;
   }
 }
