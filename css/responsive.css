@@ -19,6 +19,7 @@
 @media screen and (max-width: 1575px) {
   .hero__card {
     width: 420px;
+    height: 1080px;
   }
   .hero__card-title {
     margin-top: 30px;
