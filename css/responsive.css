@@ -254,6 +254,7 @@
     line-height: 50px;
     font-weight: 600;
     margin-top: 200px;
+    width: 100%;
   }
   .hero__card-button {
     font-size: 20px;
@@ -293,6 +294,9 @@
   .modal[data-modal='3'] {
     top: 67%;
   }
+  .flex-container {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 700px) {
   .modal {
@@ -304,7 +308,6 @@
     width: 200px;
   }
   .header__title {
-    width: 350px;
     font-size: 38px;
     line-height: 42px;
     margin-top: 150px;
@@ -349,27 +352,30 @@
   footer {
     margin-top: 0;
   }
+  .__select__title {
+    left: -25px;
+  }
+  .__select__content {
+    right: -95px;
+  }
+  .contact-form__request {
+    left: -25px;
+  }
+  .contact-form__check-box {
+    left: -8%;
+  }
+  .__select__title-region {
+    left: -142px;
+  }
+  .__select__content-region {
+    left: -142px;
+  }
+  .politics {
+    right: 55%;
+  }
 }
 @media screen and (max-width: 375px) {
   .hero__card {
-    width: 360px;
-  }
-  .__select__title {
-    left: -51px;
-  }
-  .__select__content {
-    right: -25px;
-  }
-  .contact-form__request {
-    left: -51px;
-  }
-  .contact-form__check-box {
-    left: -10%;
-  }
-  .__select__title-region {
-    left: -168px;
-  }
-  .__select__content-region {
-    left: -168px;
+    width: 350px;
   }
 }
