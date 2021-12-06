@@ -40,7 +40,7 @@
   }
   .hero__card {
     width: 350px;
-    height: 1100px;
+    height: 1180px;
   }
   .header__lamp {
     bottom: -400px;
@@ -252,8 +252,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .header__lamp {
-  }
   .header__title {
     margin-top: 150px;
   }
@@ -418,7 +416,7 @@
     width: 350px;
   }
   .header__lamp {
-    width: 400px;
+    width: 375px;
     height: 260px;
     bottom: -310px;
     right: -60px;
